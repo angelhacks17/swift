@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "2f0b4e677c7894060999a0aab17d3a24"
+build_time: [554753294, 609263000]
+inputs:
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [554709374, 0]

@@ -1,0 +1,1228 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BFC571A92E099EC2086DFADEADC8B4 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D664B45C04169530112D68849975B2F /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3367F6475D09499B26757D92B71EB789 /* Pods-AngelHacksSVUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F8D972D918C59B493B41687E0DCC2C /* Pods-AngelHacksSVUITests-dummy.m */; };
+		3CEC0633B04DE269F508C426DF4BCA9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4BD0FFCFF48BF0D1034A3EF8D77C9AD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BCAEBFB31E44AFF178878FC2C02E011 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56DFA3DB51FB01AB4D6AC59B6BDBD77A /* Pods-AngelHacksSVUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0607DDC308AD61A1EFDE9913F68E4410 /* Pods-AngelHacksSVUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63ED7C6525E091DAF48402B703F0158B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CF10C89BF9FACBE5347E0DA8A92B63 /* SwiftyJSON.swift */; };
+		7A1910D5FFD168D6670CDDDEE13CC1B8 /* Pods-AngelHacksSVTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C758DB8AD32E9F27909EEC6EBDE01CEF /* Pods-AngelHacksSVTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1008D511086EBBEAAA9D762D0A8194FB /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99AF095DEB8FC7DD3BCA8D60146EEFEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B023C9215C08B02DDB928CA8ECAED4F4 /* Pods-AngelHacksSVTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D17C1CDFAF619B3F9D47D5F144EF7D49 /* Pods-AngelHacksSVTests-dummy.m */; };
+		D3A6CA1697F489D0005246C58DF96232 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39222613499B6261FDE09BFE65F461D6 /* SwiftyJSON-dummy.m */; };
+		D716DF509E9F9FBBF2D3B1AC3CDAE672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4AEFA77AA4E3D35B8C5BE2A6D0682D /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0CA40056A718EE0845608198374BC6C /* Pods-AngelHacksSV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E48C58E6B9A88CF9DCDB844CC9FA9506 /* Pods-AngelHacksSV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1B4B0A9565669FD718D434147C13E7F /* Pods-AngelHacksSV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5CDE2734A9020E6964A5CDB595DCD /* Pods-AngelHacksSV-dummy.m */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665A6364324630CE706C3B01543F974 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819E33E4DFF9C8EC33315A63FCE507D /* GoogleToolboxForMac-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AB9D01BCD145EDC8A794C89AE9DCCFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		EE664893A752B24A0C62465BD17B402A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C68DB65E7397ED7B61D0E91251C1E93;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026012B1BA4DD1DBA4084B69F47DCEAD /* Button.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Button.h; path = Button.framework/Versions/A/Headers/Button.h; sourceTree = "<group>"; };
+		0607DDC308AD61A1EFDE9913F68E4410 /* Pods-AngelHacksSVUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AngelHacksSVUITests-umbrella.h"; sourceTree = "<group>"; };
+		097B37E6FC301E823FD1B11D75D9421F /* BTNDropinButtonAppearanceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNDropinButtonAppearanceProtocol.h; path = Button.framework/Versions/A/Headers/BTNDropinButtonAppearanceProtocol.h; sourceTree = "<group>"; };
+		0A41D3D6AB913C88224A54846D1BF35B /* Pods-AngelHacksSVUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngelHacksSVUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0A84BDAC01A0BC5304E337AA460AEB3D /* Pods-AngelHacksSVTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AngelHacksSVTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1008D511086EBBEAAA9D762D0A8194FB /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		1028A387FD102F7E44C67C421F7A0450 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		133635602D74C5C040C2966389AC3AEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1819E33E4DFF9C8EC33315A63FCE507D /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		192D3F9BF6DD98BE4DDA8E537D425C5C /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		1DA5CDE2734A9020E6964A5CDB595DCD /* Pods-AngelHacksSV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AngelHacksSV-dummy.m"; sourceTree = "<group>"; };
+		237CA0B8E765000EB2154B496AAEB899 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		24D670C1EB1A7FABBCCC5C4F3657C45C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2665A6364324630CE706C3B01543F974 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		27E126AD24F3C280149BD561AF8990DB /* BTNSerializable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNSerializable.h; path = Button.framework/Versions/A/Headers/BTNSerializable.h; sourceTree = "<group>"; };
+		28529839A913024348A88D887EE2B21F /* BTNHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNHeader.h; path = Button.framework/Versions/A/Headers/BTNHeader.h; sourceTree = "<group>"; };
+		36F8D972D918C59B493B41687E0DCC2C /* Pods-AngelHacksSVUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AngelHacksSVUITests-dummy.m"; sourceTree = "<group>"; };
+		39222613499B6261FDE09BFE65F461D6 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		41C1FB7026503FC7A395B871C63AAEEB /* BTNLineItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNLineItem.h; path = Button.framework/Versions/A/Headers/BTNLineItem.h; sourceTree = "<group>"; };
+		4558557418B39E2F55B0916E41B96529 /* Pods-AngelHacksSVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngelHacksSVTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C510D417C0E219757A7BC398FAB1EBF /* BTNDropinButton_Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNDropinButton_Deprecated.h; path = Button.framework/Versions/A/Headers/BTNDropinButton_Deprecated.h; sourceTree = "<group>"; };
+		4CB1944D4B02D7B150F40AB3E0DC1551 /* Pods-AngelHacksSVUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngelHacksSVUITests-resources.sh"; sourceTree = "<group>"; };
+		534EB46CE111D2AED19FA6E1CB43F950 /* Pods-AngelHacksSVUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AngelHacksSVUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		547A8124E08DBF957E4231797AE02C9A /* BTNPreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNPreview.h; path = Button.framework/Versions/A/Headers/BTNPreview.h; sourceTree = "<group>"; };
+		5495ECECDA02675A5C802AC7049E0419 /* BTNListItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNListItem.h; path = Button.framework/Versions/A/Headers/BTNListItem.h; sourceTree = "<group>"; };
+		56824BC4580227E7D7446F6D2B440B6D /* BTNImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNImage.h; path = Button.framework/Versions/A/Headers/BTNImage.h; sourceTree = "<group>"; };
+		5BCAEBFB31E44AFF178878FC2C02E011 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		5C89283896CC2190C3F14F1BE454910A /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		5F4388CA5F19CE92DBBDC6FDC1988D80 /* Pods-AngelHacksSVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngelHacksSVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62940B32EBEFE14D9FD20133A650657C /* Pods-AngelHacksSV-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngelHacksSV-frameworks.sh"; sourceTree = "<group>"; };
+		6709DE487607551451CEB720821B4C22 /* BTNInteractiveButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNInteractiveButton.h; path = Button.framework/Versions/A/Headers/BTNInteractiveButton.h; sourceTree = "<group>"; };
+		679542C046CC7876FD991314E9A40169 /* BTNLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNLocation.h; path = Button.framework/Versions/A/Headers/BTNLocation.h; sourceTree = "<group>"; };
+		68F0BC3ABA52C21B8939D9691520AF18 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		698C3687BF0826CB3BFF2E8D492A2A45 /* Pods-AngelHacksSVUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AngelHacksSVUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69CF10C89BF9FACBE5347E0DA8A92B63 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		6A88AF9AF6FC2CED5901662C8597EED3 /* BTNEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNEvent.h; path = Button.framework/Versions/A/Headers/BTNEvent.h; sourceTree = "<group>"; };
+		6AE0BB4826E56C9EBB6DD7E9CB22DD96 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		6B1ECB844F5723AF7C0D1F9D54A7C526 /* Pods-AngelHacksSVTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AngelHacksSVTests.modulemap"; sourceTree = "<group>"; };
+		6F96B5EDD026FE9E3AF570499AF72EFE /* BTNAppAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNAppAction.h; path = Button.framework/Versions/A/Headers/BTNAppAction.h; sourceTree = "<group>"; };
+		7052FE5766B0FC0098AEF6D3A5A3CDDC /* BTNText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNText.h; path = Button.framework/Versions/A/Headers/BTNText.h; sourceTree = "<group>"; };
+		722B903BCE5C1ABAD9A8BF7887D860DC /* BTNView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNView.h; path = Button.framework/Versions/A/Headers/BTNView.h; sourceTree = "<group>"; };
+		73CA8CA60B73CD4E4797BA0CF63B0B31 /* Button.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Button.bundle; sourceTree = "<group>"; };
+		76D620F85A5EC24FD00E10D5F80CA0EC /* BTNMusicArtist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNMusicArtist.h; path = Button.framework/Versions/A/Headers/BTNMusicArtist.h; sourceTree = "<group>"; };
+		7868BFBB5F85AA777D47FE1D9A5205A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D7EC1709EA87EAEE134F01FD81A987 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		7C80850A8678A313A6A53E91EE734461 /* Pods-AngelHacksSV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngelHacksSV.release.xcconfig"; sourceTree = "<group>"; };
+		825BD2078D17C841E1034187978842F6 /* Button.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Button.framework; sourceTree = "<group>"; };
+		878CEBC8390374325EBA299BC271C39A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5532371774664F5208B6239D8880A8 /* BTNBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNBackground.h; path = Button.framework/Versions/A/Headers/BTNBackground.h; sourceTree = "<group>"; };
+		8EF07C284823699E7826C768A610208E /* BTNSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNSession.h; path = Button.framework/Versions/A/Headers/BTNSession.h; sourceTree = "<group>"; };
+		91DF96134A4C3254AD644742F9A9D528 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93F0C9BBD746AF901E8BCD88E53E7344 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		9617501C8EA89577B48FDA49F6133C8B /* Pods-AngelHacksSV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngelHacksSV.debug.xcconfig"; sourceTree = "<group>"; };
+		96352525F8470CED7EBDF8707834C006 /* BTNJourney.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNJourney.h; path = Button.framework/Versions/A/Headers/BTNJourney.h; sourceTree = "<group>"; };
+		97CBCF76907C57333404018B73BAC0B7 /* Button_Public.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Button_Public.h; path = Button.framework/Versions/A/Headers/Button_Public.h; sourceTree = "<group>"; };
+		9A464DF331DADB21D1D8C9F7A31E8888 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9A4BE04228E44BACAEFE4B73880A10 /* Pods_AngelHacksSVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AngelHacksSVUITests.framework; path = "Pods-AngelHacksSVUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF610A867E9A39264ADE59B48E3EE4F /* Pods-AngelHacksSVTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngelHacksSVTests-resources.sh"; sourceTree = "<group>"; };
+		9BB287CE960BD99A9E4E7B969573ACD1 /* Pods-AngelHacksSVTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngelHacksSVTests-frameworks.sh"; sourceTree = "<group>"; };
+		9D036A0B460F5D72F135FE8EABD86629 /* BTNDropinButtonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNDropinButtonConstants.h; path = Button.framework/Versions/A/Headers/BTNDropinButtonConstants.h; sourceTree = "<group>"; };
+		9D664B45C04169530112D68849975B2F /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		9DA746554AC3BAD53A1FCB7F385A4A57 /* BTNModelObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNModelObject.h; path = Button.framework/Versions/A/Headers/BTNModelObject.h; sourceTree = "<group>"; };
+		9FBE988DF461F03E885B212F7916DD33 /* Pods-AngelHacksSVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngelHacksSVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE7ED9A389663C71659F3C568D3FFDEE /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		B66C74291147D670A16C51AADE1DFA67 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		B7CF108AF379D7CB670511A282D574C4 /* Pods_AngelHacksSVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AngelHacksSVTests.framework; path = "Pods-AngelHacksSVTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE31664A5A3AD0572AFA3E03F4DDEC4 /* BTNDropinButtonCell_Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNDropinButtonCell_Deprecated.h; path = Button.framework/Versions/A/Headers/BTNDropinButtonCell_Deprecated.h; sourceTree = "<group>"; };
+		BD4AEFA77AA4E3D35B8C5BE2A6D0682D /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		BE4C12E014F59F3D541870987E4A1185 /* Pods_AngelHacksSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AngelHacksSV.framework; path = "Pods-AngelHacksSV.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C048C051E387134E9E30FCC6821F7292 /* Pods-AngelHacksSVUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AngelHacksSVUITests.modulemap"; sourceTree = "<group>"; };
+		C38A8214384D1EF299E511E2C0AACDC3 /* BTNFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNFooter.h; path = Button.framework/Versions/A/Headers/BTNFooter.h; sourceTree = "<group>"; };
+		C5AAAB8CFD88C60DC0701B08313F4EC9 /* BTNDropinButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNDropinButton.h; path = Button.framework/Versions/A/Headers/BTNDropinButton.h; sourceTree = "<group>"; };
+		C6CF0DBC33D355A07D96E1427994B527 /* Pods-AngelHacksSV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AngelHacksSV.modulemap"; sourceTree = "<group>"; };
+		C758DB8AD32E9F27909EEC6EBDE01CEF /* Pods-AngelHacksSVTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AngelHacksSVTests-umbrella.h"; sourceTree = "<group>"; };
+		C909902A1C7DECA48370D8AABD7B5020 /* BTNDropinButtonCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNDropinButtonCell.h; path = Button.framework/Versions/A/Headers/BTNDropinButtonCell.h; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD34910C4936732D14DF8C1F70C08F79 /* BTNContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNContext.h; path = Button.framework/Versions/A/Headers/BTNContext.h; sourceTree = "<group>"; };
+		D17C1CDFAF619B3F9D47D5F144EF7D49 /* Pods-AngelHacksSVTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AngelHacksSVTests-dummy.m"; sourceTree = "<group>"; };
+		D4945A162155C3EA97A1D5AE4EF0014E /* BTNAppActionMeta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNAppActionMeta.h; path = Button.framework/Versions/A/Headers/BTNAppActionMeta.h; sourceTree = "<group>"; };
+		DFF996DCCD00B4E83C1FE7B7F16160EB /* Button_Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Button_Deprecated.h; path = Button.framework/Versions/A/Headers/Button_Deprecated.h; sourceTree = "<group>"; };
+		E48C58E6B9A88CF9DCDB844CC9FA9506 /* Pods-AngelHacksSV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AngelHacksSV-umbrella.h"; sourceTree = "<group>"; };
+		E7D08DC16EB7AB8EFC1EC846F434B333 /* BTNSubscriptableProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNSubscriptableProtocol.h; path = Button.framework/Versions/A/Headers/BTNSubscriptableProtocol.h; sourceTree = "<group>"; };
+		E8137512EC9B3D866434AA51C5B371CC /* Pods-AngelHacksSV-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AngelHacksSV-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8A09D8CD1218F145130C7564D5CABB7 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		E8EDF808E2B502A8ACC2545FB1FC8E09 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		EAF1C6C3B2C3F10EF697EAA36FC1745A /* BTNBaseEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNBaseEntity.h; path = Button.framework/Versions/A/Headers/BTNBaseEntity.h; sourceTree = "<group>"; };
+		ED3D7AB7BE5FC46BF9594FC577722F27 /* Pods-AngelHacksSVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngelHacksSVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED9DF9C0A07A857203C01ABFE64FBDCA /* BTNGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNGroup.h; path = Button.framework/Versions/A/Headers/BTNGroup.h; sourceTree = "<group>"; };
+		EE255CA24E602C470E6F99F52BF0F06D /* Pods-AngelHacksSVTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AngelHacksSVTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEB2CBD3E894B8512197473C51941650 /* Pods-AngelHacksSV-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AngelHacksSV-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F40D3629BE22E28FFC1C7F22DC5EEACB /* BTNItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNItem.h; path = Button.framework/Versions/A/Headers/BTNItem.h; sourceTree = "<group>"; };
+		F8CA6033897DBB50D46BF1AA1FD4856D /* Pods-AngelHacksSV-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngelHacksSV-resources.sh"; sourceTree = "<group>"; };
+		FCC1A350B203C93A61C3FF03B67BEE1C /* BTNProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTNProduct.h; path = Button.framework/Versions/A/Headers/BTNProduct.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494DA090F023A09BBF990E27650CE5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D716DF509E9F9FBBF2D3B1AC3CDAE672 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE082C80CB75BE43A29A974CAE87D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD0FFCFF48BF0D1034A3EF8D77C9AD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5EBA44779B20FDB8E0DD4DCC4A500E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEC0633B04DE269F508C426DF4BCA9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1573ACDCCCE4CA331A359C25FCB8AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AF095DEB8FC7DD3BCA8D60146EEFEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E519CC8A175428C33FE8E782B367AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				825BD2078D17C841E1034187978842F6 /* Button.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E69B10ECAAD208F60617FED538B7AA3 /* Pods-AngelHacksSVTests */ = {
+			isa = PBXGroup;
+			children = (
+				24D670C1EB1A7FABBCCC5C4F3657C45C /* Info.plist */,
+				6B1ECB844F5723AF7C0D1F9D54A7C526 /* Pods-AngelHacksSVTests.modulemap */,
+				0A84BDAC01A0BC5304E337AA460AEB3D /* Pods-AngelHacksSVTests-acknowledgements.markdown */,
+				EE255CA24E602C470E6F99F52BF0F06D /* Pods-AngelHacksSVTests-acknowledgements.plist */,
+				D17C1CDFAF619B3F9D47D5F144EF7D49 /* Pods-AngelHacksSVTests-dummy.m */,
+				9BB287CE960BD99A9E4E7B969573ACD1 /* Pods-AngelHacksSVTests-frameworks.sh */,
+				9AF610A867E9A39264ADE59B48E3EE4F /* Pods-AngelHacksSVTests-resources.sh */,
+				C758DB8AD32E9F27909EEC6EBDE01CEF /* Pods-AngelHacksSVTests-umbrella.h */,
+				5F4388CA5F19CE92DBBDC6FDC1988D80 /* Pods-AngelHacksSVTests.debug.xcconfig */,
+				4558557418B39E2F55B0916E41B96529 /* Pods-AngelHacksSVTests.release.xcconfig */,
+			);
+			name = "Pods-AngelHacksSVTests";
+			path = "Target Support Files/Pods-AngelHacksSVTests";
+			sourceTree = "<group>";
+		};
+		0EE0B5BA2F38F18E253734FBA9F2823A /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				9ACF16F33E0AEDFF958448090D408B01 /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		14DDA6D250E2AFA1553FFEF566F662B8 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				EE2A18757E42396249E914C383BDFE6F /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		15B15BE6D03230D30D81C08E4CA7914E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				133635602D74C5C040C2966389AC3AEF /* Info.plist */,
+				5C89283896CC2190C3F14F1BE454910A /* SwiftyJSON.modulemap */,
+				E8A09D8CD1218F145130C7564D5CABB7 /* SwiftyJSON.xcconfig */,
+				39222613499B6261FDE09BFE65F461D6 /* SwiftyJSON-dummy.m */,
+				B66C74291147D670A16C51AADE1DFA67 /* SwiftyJSON-prefix.pch */,
+				9D664B45C04169530112D68849975B2F /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		15FA42FFFB462329CE9162CDFA03D2D1 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				BD4AEFA77AA4E3D35B8C5BE2A6D0682D /* GTMNSData+zlib.h */,
+				2665A6364324630CE706C3B01543F974 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		2AD778656DEDD50D00F9099F3C129DA5 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				D0EF3EA9116BE68C51AEDBDFC18677A5 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		2BE1ABEF4216B13CE6F46CD930CDBCD1 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				6A8FB2EEAAF62C66133BA3F9052D9C38 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		2F4E9151D173187D9563E181D3C41006 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				3847ABB7EECB7AD8403A7E11AE556EA0 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		3847ABB7EECB7AD8403A7E11AE556EA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE7ED9A389663C71659F3C568D3FFDEE /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43D54DC5D0F74396B5C4618BCCED1C58 /* Pods-AngelHacksSV */ = {
+			isa = PBXGroup;
+			children = (
+				7868BFBB5F85AA777D47FE1D9A5205A8 /* Info.plist */,
+				C6CF0DBC33D355A07D96E1427994B527 /* Pods-AngelHacksSV.modulemap */,
+				EEB2CBD3E894B8512197473C51941650 /* Pods-AngelHacksSV-acknowledgements.markdown */,
+				E8137512EC9B3D866434AA51C5B371CC /* Pods-AngelHacksSV-acknowledgements.plist */,
+				1DA5CDE2734A9020E6964A5CDB595DCD /* Pods-AngelHacksSV-dummy.m */,
+				62940B32EBEFE14D9FD20133A650657C /* Pods-AngelHacksSV-frameworks.sh */,
+				F8CA6033897DBB50D46BF1AA1FD4856D /* Pods-AngelHacksSV-resources.sh */,
+				E48C58E6B9A88CF9DCDB844CC9FA9506 /* Pods-AngelHacksSV-umbrella.h */,
+				9617501C8EA89577B48FDA49F6133C8B /* Pods-AngelHacksSV.debug.xcconfig */,
+				7C80850A8678A313A6A53E91EE734461 /* Pods-AngelHacksSV.release.xcconfig */,
+			);
+			name = "Pods-AngelHacksSV";
+			path = "Target Support Files/Pods-AngelHacksSV";
+			sourceTree = "<group>";
+		};
+		53E5ED5234B97C16CB57AF82E7B1DD73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AE0BB4826E56C9EBB6DD7E9CB22DD96 /* GoogleToolboxForMac.modulemap */,
+				E8EDF808E2B502A8ACC2545FB1FC8E09 /* GoogleToolboxForMac.xcconfig */,
+				1819E33E4DFF9C8EC33315A63FCE507D /* GoogleToolboxForMac-dummy.m */,
+				192D3F9BF6DD98BE4DDA8E537D425C5C /* GoogleToolboxForMac-prefix.pch */,
+				1008D511086EBBEAAA9D762D0A8194FB /* GoogleToolboxForMac-umbrella.h */,
+				91DF96134A4C3254AD644742F9A9D528 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		5942FB11887F80188F265EC0F9E829B8 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				7CA381F5E66C6F644CCE045443FE642E /* Defines */,
+				15FA42FFFB462329CE9162CDFA03D2D1 /* NSData+zlib */,
+				53E5ED5234B97C16CB57AF82E7B1DD73 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		5F6AFAC8B80F0F80044D96103EB1CDA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2393100C291AC32C3EDD3ABCF82157D /* Button */,
+				2AD778656DEDD50D00F9099F3C129DA5 /* Firebase */,
+				14DDA6D250E2AFA1553FFEF566F662B8 /* FirebaseAnalytics */,
+				2F4E9151D173187D9563E181D3C41006 /* FirebaseCore */,
+				0EE0B5BA2F38F18E253734FBA9F2823A /* FirebaseDatabase */,
+				2BE1ABEF4216B13CE6F46CD930CDBCD1 /* FirebaseInstanceID */,
+				5942FB11887F80188F265EC0F9E829B8 /* GoogleToolboxForMac */,
+				94D13AF4BD63C553377E3640C652A73A /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69951B12C2175A2FA7B20ED00A780723 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43D54DC5D0F74396B5C4618BCCED1C58 /* Pods-AngelHacksSV */,
+				0E69B10ECAAD208F60617FED538B7AA3 /* Pods-AngelHacksSVTests */,
+				7DECD6ADAF570AF7F03FE1E9DC49FEFC /* Pods-AngelHacksSVUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6A8FB2EEAAF62C66133BA3F9052D9C38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79D7EC1709EA87EAEE134F01FD81A987 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7CA381F5E66C6F644CCE045443FE642E /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				5BCAEBFB31E44AFF178878FC2C02E011 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5F6AFAC8B80F0F80044D96103EB1CDA8 /* Pods */,
+				8D9A4C5488CAD5256BBC6C41E5D049FB /* Products */,
+				69951B12C2175A2FA7B20ED00A780723 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DECD6ADAF570AF7F03FE1E9DC49FEFC /* Pods-AngelHacksSVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				878CEBC8390374325EBA299BC271C39A /* Info.plist */,
+				C048C051E387134E9E30FCC6821F7292 /* Pods-AngelHacksSVUITests.modulemap */,
+				698C3687BF0826CB3BFF2E8D492A2A45 /* Pods-AngelHacksSVUITests-acknowledgements.markdown */,
+				534EB46CE111D2AED19FA6E1CB43F950 /* Pods-AngelHacksSVUITests-acknowledgements.plist */,
+				36F8D972D918C59B493B41687E0DCC2C /* Pods-AngelHacksSVUITests-dummy.m */,
+				0A41D3D6AB913C88224A54846D1BF35B /* Pods-AngelHacksSVUITests-frameworks.sh */,
+				4CB1944D4B02D7B150F40AB3E0DC1551 /* Pods-AngelHacksSVUITests-resources.sh */,
+				0607DDC308AD61A1EFDE9913F68E4410 /* Pods-AngelHacksSVUITests-umbrella.h */,
+				ED3D7AB7BE5FC46BF9594FC577722F27 /* Pods-AngelHacksSVUITests.debug.xcconfig */,
+				9FBE988DF461F03E885B212F7916DD33 /* Pods-AngelHacksSVUITests.release.xcconfig */,
+			);
+			name = "Pods-AngelHacksSVUITests";
+			path = "Target Support Files/Pods-AngelHacksSVUITests";
+			sourceTree = "<group>";
+		};
+		8D9A4C5488CAD5256BBC6C41E5D049FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A464DF331DADB21D1D8C9F7A31E8888 /* GoogleToolboxForMac.framework */,
+				BE4C12E014F59F3D541870987E4A1185 /* Pods_AngelHacksSV.framework */,
+				B7CF108AF379D7CB670511A282D574C4 /* Pods_AngelHacksSVTests.framework */,
+				9A9A4BE04228E44BACAEFE4B73880A10 /* Pods_AngelHacksSVUITests.framework */,
+				68F0BC3ABA52C21B8939D9691520AF18 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94D13AF4BD63C553377E3640C652A73A /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				69CF10C89BF9FACBE5347E0DA8A92B63 /* SwiftyJSON.swift */,
+				15B15BE6D03230D30D81C08E4CA7914E /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		9ACF16F33E0AEDFF958448090D408B01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				237CA0B8E765000EB2154B496AAEB899 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2393100C291AC32C3EDD3ABCF82157D /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				6F96B5EDD026FE9E3AF570499AF72EFE /* BTNAppAction.h */,
+				D4945A162155C3EA97A1D5AE4EF0014E /* BTNAppActionMeta.h */,
+				8E5532371774664F5208B6239D8880A8 /* BTNBackground.h */,
+				EAF1C6C3B2C3F10EF697EAA36FC1745A /* BTNBaseEntity.h */,
+				CD34910C4936732D14DF8C1F70C08F79 /* BTNContext.h */,
+				C5AAAB8CFD88C60DC0701B08313F4EC9 /* BTNDropinButton.h */,
+				4C510D417C0E219757A7BC398FAB1EBF /* BTNDropinButton_Deprecated.h */,
+				097B37E6FC301E823FD1B11D75D9421F /* BTNDropinButtonAppearanceProtocol.h */,
+				C909902A1C7DECA48370D8AABD7B5020 /* BTNDropinButtonCell.h */,
+				BBE31664A5A3AD0572AFA3E03F4DDEC4 /* BTNDropinButtonCell_Deprecated.h */,
+				9D036A0B460F5D72F135FE8EABD86629 /* BTNDropinButtonConstants.h */,
+				6A88AF9AF6FC2CED5901662C8597EED3 /* BTNEvent.h */,
+				C38A8214384D1EF299E511E2C0AACDC3 /* BTNFooter.h */,
+				ED9DF9C0A07A857203C01ABFE64FBDCA /* BTNGroup.h */,
+				28529839A913024348A88D887EE2B21F /* BTNHeader.h */,
+				56824BC4580227E7D7446F6D2B440B6D /* BTNImage.h */,
+				6709DE487607551451CEB720821B4C22 /* BTNInteractiveButton.h */,
+				F40D3629BE22E28FFC1C7F22DC5EEACB /* BTNItem.h */,
+				96352525F8470CED7EBDF8707834C006 /* BTNJourney.h */,
+				41C1FB7026503FC7A395B871C63AAEEB /* BTNLineItem.h */,
+				5495ECECDA02675A5C802AC7049E0419 /* BTNListItem.h */,
+				679542C046CC7876FD991314E9A40169 /* BTNLocation.h */,
+				9DA746554AC3BAD53A1FCB7F385A4A57 /* BTNModelObject.h */,
+				76D620F85A5EC24FD00E10D5F80CA0EC /* BTNMusicArtist.h */,
+				547A8124E08DBF957E4231797AE02C9A /* BTNPreview.h */,
+				FCC1A350B203C93A61C3FF03B67BEE1C /* BTNProduct.h */,
+				27E126AD24F3C280149BD561AF8990DB /* BTNSerializable.h */,
+				8EF07C284823699E7826C768A610208E /* BTNSession.h */,
+				E7D08DC16EB7AB8EFC1EC846F434B333 /* BTNSubscriptableProtocol.h */,
+				7052FE5766B0FC0098AEF6D3A5A3CDDC /* BTNText.h */,
+				722B903BCE5C1ABAD9A8BF7887D860DC /* BTNView.h */,
+				026012B1BA4DD1DBA4084B69F47DCEAD /* Button.h */,
+				DFF996DCCD00B4E83C1FE7B7F16160EB /* Button_Deprecated.h */,
+				97CBCF76907C57333404018B73BAC0B7 /* Button_Public.h */,
+				07E519CC8A175428C33FE8E782B367AD /* Frameworks */,
+				B68BD5CDECFD1BB7BBE304AA7CFC3EFF /* Resources */,
+			);
+			name = Button;
+			path = Button;
+			sourceTree = "<group>";
+		};
+		B68BD5CDECFD1BB7BBE304AA7CFC3EFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73CA8CA60B73CD4E4797BA0CF63B0B31 /* Button.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0EF3EA9116BE68C51AEDBDFC18677A5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1028A387FD102F7E44C67C421F7A0450 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		EE2A18757E42396249E914C383BDFE6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93F0C9BBD746AF901E8BCD88E53E7344 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		342DA3EEAEDFB87A0A91659636D1F3DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1910D5FFD168D6670CDDDEE13CC1B8 /* Pods-AngelHacksSVTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A7EA3E5111540B78FAFB30A11A5A43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0CA40056A718EE0845608198374BC6C /* Pods-AngelHacksSV-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B35A7DCBFC9D7DE452A25F01395597 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DFA3DB51FB01AB4D6AC59B6BDBD77A /* Pods-AngelHacksSVUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD495DB59984CD44C9557CB442BFEF76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BFC571A92E099EC2086DFADEADC8B4 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 9A464DF331DADB21D1D8C9F7A31E8888 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C68DB65E7397ED7B61D0E91251C1E93 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A5845D3BAFB7EA96C8C12737C32840 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				F7C0B5F75C26C655F2DE8D1D8A151346 /* Sources */,
+				A1573ACDCCCE4CA331A359C25FCB8AAC /* Frameworks */,
+				AD495DB59984CD44C9557CB442BFEF76 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 68F0BC3ABA52C21B8939D9691520AF18 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFF824E108B35210B61E147207D4B091 /* Pods-AngelHacksSVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78635ADA957C315034776C891818B8A /* Build configuration list for PBXNativeTarget "Pods-AngelHacksSVTests" */;
+			buildPhases = (
+				D022B9820C7C4CA1FF4C716A9AEF6E75 /* Sources */,
+				494DA090F023A09BBF990E27650CE5C6 /* Frameworks */,
+				342DA3EEAEDFB87A0A91659636D1F3DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AngelHacksSVTests";
+			productName = "Pods-AngelHacksSVTests";
+			productReference = B7CF108AF379D7CB670511A282D574C4 /* Pods_AngelHacksSVTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3180B9C3CF3647B3BDE56B3E96387C5 /* Pods-AngelHacksSVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8555CEC02D3A01763FAC8BDD1F3EC892 /* Build configuration list for PBXNativeTarget "Pods-AngelHacksSVUITests" */;
+			buildPhases = (
+				EE4B994EB486A4348168EF977E3FFC16 /* Sources */,
+				9F5EBA44779B20FDB8E0DD4DCC4A500E /* Frameworks */,
+				96B35A7DCBFC9D7DE452A25F01395597 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AngelHacksSVUITests";
+			productName = "Pods-AngelHacksSVUITests";
+			productReference = 9A9A4BE04228E44BACAEFE4B73880A10 /* Pods_AngelHacksSVUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4C40B0C8D0686D592F9C2B69F2B4D29 /* Pods-AngelHacksSV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417A5DCBBD128E71339AF9954B192BD5 /* Build configuration list for PBXNativeTarget "Pods-AngelHacksSV" */;
+			buildPhases = (
+				C523653B065D7FBFCE6B5FB836A95495 /* Sources */,
+				9DE082C80CB75BE43A29A974CAE87D47 /* Frameworks */,
+				80A7EA3E5111540B78FAFB30A11A5A43 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D17AADEADEF3FB700904307F766421F9 /* PBXTargetDependency */,
+				01268337F74E302967B3C6B6AFF5262E /* PBXTargetDependency */,
+			);
+			name = "Pods-AngelHacksSV";
+			productName = "Pods-AngelHacksSV";
+			productReference = BE4C12E014F59F3D541870987E4A1185 /* Pods_AngelHacksSV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8D9A4C5488CAD5256BBC6C41E5D049FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				D4C40B0C8D0686D592F9C2B69F2B4D29 /* Pods-AngelHacksSV */,
+				BFF824E108B35210B61E147207D4B091 /* Pods-AngelHacksSVTests */,
+				D3180B9C3CF3647B3BDE56B3E96387C5 /* Pods-AngelHacksSVUITests */,
+				3C68DB65E7397ED7B61D0E91251C1E93 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C523653B065D7FBFCE6B5FB836A95495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B4B0A9565669FD718D434147C13E7F /* Pods-AngelHacksSV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D022B9820C7C4CA1FF4C716A9AEF6E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B023C9215C08B02DDB928CA8ECAED4F4 /* Pods-AngelHacksSVTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4B994EB486A4348168EF977E3FFC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3367F6475D09499B26757D92B71EB789 /* Pods-AngelHacksSVUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C0B5F75C26C655F2DE8D1D8A151346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A6CA1697F489D0005246C58DF96232 /* SwiftyJSON-dummy.m in Sources */,
+				63ED7C6525E091DAF48402B703F0158B /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01268337F74E302967B3C6B6AFF5262E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 3C68DB65E7397ED7B61D0E91251C1E93 /* SwiftyJSON */;
+			targetProxy = EE664893A752B24A0C62465BD17B402A /* PBXContainerItemProxy */;
+		};
+		D17AADEADEF3FB700904307F766421F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 4AB9D01BCD145EDC8A794C89AE9DCCFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BC6C0A5C509DDE7B2711E00EFC6C8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A09D8CD1218F145130C7564D5CABB7 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12561C38CF28516EF48FA177221A807F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A09D8CD1218F145130C7564D5CABB7 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C8AF8AE60A9CA99DE1CD573AABC8663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4388CA5F19CE92DBBDC6FDC1988D80 /* Pods-AngelHacksSVTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AngelHacksSVTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AngelHacksSVTests/Pods-AngelHacksSVTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AngelHacksSVTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		586BFC2B639BA6F5C2FF844E4E382A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBE988DF461F03E885B212F7916DD33 /* Pods-AngelHacksSVUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AngelHacksSVUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AngelHacksSVUITests/Pods-AngelHacksSVUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AngelHacksSVUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C1CB3D452315170BF25B52FBC350128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C80850A8678A313A6A53E91EE734461 /* Pods-AngelHacksSV.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AngelHacksSV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AngelHacksSV/Pods-AngelHacksSV.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AngelHacksSV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		730AD02A52262C85BE40E541F51314EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4558557418B39E2F55B0916E41B96529 /* Pods-AngelHacksSVTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AngelHacksSVTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AngelHacksSVTests/Pods-AngelHacksSVTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AngelHacksSVTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98C5F17A4CF3D57276BBBE067ACB7B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED3D7AB7BE5FC46BF9594FC577722F27 /* Pods-AngelHacksSVUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AngelHacksSVUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AngelHacksSVUITests/Pods-AngelHacksSVUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AngelHacksSVUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A888D6AB33F112F4AB2776932B96CBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9617501C8EA89577B48FDA49F6133C8B /* Pods-AngelHacksSV.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AngelHacksSV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AngelHacksSV/Pods-AngelHacksSV.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AngelHacksSV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D60CD877A708870E2BE96B83BA32F883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8EDF808E2B502A8ACC2545FB1FC8E09 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F066921CBDBDB5F45795E50FBC5AC972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8EDF808E2B502A8ACC2545FB1FC8E09 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417A5DCBBD128E71339AF9954B192BD5 /* Build configuration list for PBXNativeTarget "Pods-AngelHacksSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A888D6AB33F112F4AB2776932B96CBB1 /* Debug */,
+				5C1CB3D452315170BF25B52FBC350128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8555CEC02D3A01763FAC8BDD1F3EC892 /* Build configuration list for PBXNativeTarget "Pods-AngelHacksSVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C5F17A4CF3D57276BBBE067ACB7B1B /* Debug */,
+				586BFC2B639BA6F5C2FF844E4E382A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60CD877A708870E2BE96B83BA32F883 /* Debug */,
+				F066921CBDBDB5F45795E50FBC5AC972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78635ADA957C315034776C891818B8A /* Build configuration list for PBXNativeTarget "Pods-AngelHacksSVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8AF8AE60A9CA99DE1CD573AABC8663 /* Debug */,
+				730AD02A52262C85BE40E541F51314EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A5845D3BAFB7EA96C8C12737C32840 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC6C0A5C509DDE7B2711E00EFC6C8F6 /* Debug */,
+				12561C38CF28516EF48FA177221A807F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

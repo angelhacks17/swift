@@ -1,0 +1,954 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C12AngelHacksSV11AppDelegate"
+provides-member:
+- ["C12AngelHacksSV11AppDelegate", ""]
+provides-dynamic-lookup:
+- "application"
+- "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+- "applyButtonAppearance"
+- "persistentContainer"
+- "saveContext"
+- "window"
+depends-top-level:
+- "AppDelegate"
+- "AssignmentPrecedence"
+- !private "BTNDropinButton"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Button"
+- "CastingPrecedence"
+- !private "Error"
+- !private "FIRApp"
+- !private "NSError"
+- "NSPersistentContainer"
+- "String"
+- "StringLiteralType"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIApplicationLaunchOptionsKey"
+- !private "UIColor"
+- !private "UIFont"
+- "UIResponder"
+- "UIWindow"
+- "URL"
+- !private "Void"
+- !private "fatalError"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "BTNDropinButton"]
+- !private ["Ps9AnyObject", "Button"]
+- !private ["Ps9AnyObject", "FIRApp"]
+- !private ["Ps9AnyObject", "NSPersistentContainer"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIFont"]
+- !private ["Ps9AnyObject", "allow"]
+- !private ["Ps9AnyObject", "appearance"]
+- ["Ps9AnyObject", "application"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidEnterBackground"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["Ps9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9AnyObject", "applicationSignificantTimeChange"]
+- ["Ps9AnyObject", "applicationWillEnterForeground"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "applicationWillTerminate"]
+- !private ["Ps9AnyObject", "applyButtonAppearance"]
+- !private ["Ps9AnyObject", "borderColor"]
+- !private ["Ps9AnyObject", "borderWidth"]
+- !private ["Ps9AnyObject", "configure"]
+- !private ["Ps9AnyObject", "cornerRadius"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "font"]
+- !private ["Ps9AnyObject", "gray"]
+- !private ["Ps9AnyObject", "handle"]
+- !private ["Ps9AnyObject", "hasChanges"]
+- !private ["Ps9AnyObject", "highlightedTextColor"]
+- !private ["Ps9AnyObject", "iconSize"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lightGray"]
+- !private ["Ps9AnyObject", "loadPersistentStores"]
+- !private ["Ps9AnyObject", "persistentContainer"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "save"]
+- !private ["Ps9AnyObject", "saveContext"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "systemFont"]
+- !private ["Ps9AnyObject", "userInfo"]
+- !private ["Ps9AnyObject", "viewContext"]
+- ["Ps9AnyObject", "window"]
+- ["Ps9AnyObject", ""]
+- !private ["C12AngelHacksSV11AppDelegate", "BTNDropinButton"]
+- ["C12AngelHacksSV11AppDelegate", "Bool"]
+- !private ["C12AngelHacksSV11AppDelegate", "Button"]
+- !private ["C12AngelHacksSV11AppDelegate", "Error"]
+- !private ["C12AngelHacksSV11AppDelegate", "FIRApp"]
+- !private ["C12AngelHacksSV11AppDelegate", "NSError"]
+- ["C12AngelHacksSV11AppDelegate", "NSPersistentContainer"]
+- ["C12AngelHacksSV11AppDelegate", "String"]
+- ["C12AngelHacksSV11AppDelegate", "UIApplication"]
+- ["C12AngelHacksSV11AppDelegate", "UIApplicationLaunchOptionsKey"]
+- !private ["C12AngelHacksSV11AppDelegate", "UIColor"]
+- !private ["C12AngelHacksSV11AppDelegate", "UIFont"]
+- ["C12AngelHacksSV11AppDelegate", "UIWindow"]
+- ["C12AngelHacksSV11AppDelegate", "URL"]
+- !private ["C12AngelHacksSV11AppDelegate", "Void"]
+- ["C12AngelHacksSV11AppDelegate", "application"]
+- ["C12AngelHacksSV11AppDelegate", "applicationDidBecomeActive"]
+- ["C12AngelHacksSV11AppDelegate", "applicationDidEnterBackground"]
+- ["C12AngelHacksSV11AppDelegate", "applicationDidFinishLaunching"]
+- ["C12AngelHacksSV11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C12AngelHacksSV11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C12AngelHacksSV11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C12AngelHacksSV11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C12AngelHacksSV11AppDelegate", "applicationSignificantTimeChange"]
+- ["C12AngelHacksSV11AppDelegate", "applicationWillEnterForeground"]
+- ["C12AngelHacksSV11AppDelegate", "applicationWillResignActive"]
+- ["C12AngelHacksSV11AppDelegate", "applicationWillTerminate"]
+- ["C12AngelHacksSV11AppDelegate", "applyButtonAppearance"]
+- ["C12AngelHacksSV11AppDelegate", "deinit"]
+- !private ["C12AngelHacksSV11AppDelegate", "fatalError"]
+- ["C12AngelHacksSV11AppDelegate", "init"]
+- ["C12AngelHacksSV11AppDelegate", "persistentContainer"]
+- !private ["C12AngelHacksSV11AppDelegate", "persistentContainer.storage"]
+- !private ["C12AngelHacksSV11AppDelegate", "print"]
+- ["C12AngelHacksSV11AppDelegate", "saveContext"]
+- ["C12AngelHacksSV11AppDelegate", "window"]
+- !private ["CSo15BTNDropinButton", "appearance"]
+- !private ["CSo15BTNDropinButton", "borderColor"]
+- !private ["CSo15BTNDropinButton", "borderWidth"]
+- !private ["CSo15BTNDropinButton", "cornerRadius"]
+- !private ["CSo15BTNDropinButton", "font"]
+- !private ["CSo15BTNDropinButton", "highlightedTextColor"]
+- !private ["CSo15BTNDropinButton", "iconSize"]
+- !private ["PSo25BTNDropinButtonAppearance", "appearance"]
+- !private ["PSo25BTNDropinButtonAppearance", "borderColor"]
+- !private ["PSo25BTNDropinButtonAppearance", "borderWidth"]
+- !private ["PSo25BTNDropinButtonAppearance", "cornerRadius"]
+- !private ["PSo25BTNDropinButtonAppearance", "font"]
+- !private ["PSo25BTNDropinButtonAppearance", "highlightedTextColor"]
+- !private ["PSo25BTNDropinButtonAppearance", "iconSize"]
+- !private ["PSo25BTNDropinButtonDeprecated", "appearance"]
+- !private ["PSo25BTNDropinButtonDeprecated", "borderColor"]
+- !private ["PSo25BTNDropinButtonDeprecated", "borderWidth"]
+- !private ["PSo25BTNDropinButtonDeprecated", "cornerRadius"]
+- !private ["PSo25BTNDropinButtonDeprecated", "font"]
+- !private ["PSo25BTNDropinButtonDeprecated", "highlightedTextColor"]
+- !private ["PSo25BTNDropinButtonDeprecated", "iconSize"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["CSo6Button", "allow"]
+- !private ["CSo6Button", "configure"]
+- !private ["CSo6Button", "handle"]
+- !private ["CSo6Button", "shared"]
+- !private ["PSo16ButtonDeprecated", "allow"]
+- !private ["PSo16ButtonDeprecated", "configure"]
+- !private ["PSo16ButtonDeprecated", "handle"]
+- !private ["PSo16ButtonDeprecated", "shared"]
+- !private ["PSo14ButtonProtocol", "allow"]
+- !private ["PSo14ButtonProtocol", "configure"]
+- !private ["PSo14ButtonProtocol", "handle"]
+- !private ["PSo14ButtonProtocol", "shared"]
+- !private ["PSo15CALayerDelegate", "appearance"]
+- !private ["PSo15CALayerDelegate", "borderColor"]
+- !private ["PSo15CALayerDelegate", "borderWidth"]
+- !private ["PSo15CALayerDelegate", "cornerRadius"]
+- !private ["PSo15CALayerDelegate", "font"]
+- !private ["PSo15CALayerDelegate", "highlightedTextColor"]
+- !private ["PSo15CALayerDelegate", "iconSize"]
+- !private ["Ps7CVarArg", "BTNDropinButton"]
+- !private ["Ps7CVarArg", "Button"]
+- !private ["Ps7CVarArg", "FIRApp"]
+- !private ["Ps7CVarArg", "NSPersistentContainer"]
+- !private ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "UIFont"]
+- !private ["Ps7CVarArg", "allow"]
+- !private ["Ps7CVarArg", "appearance"]
+- ["Ps7CVarArg", "application"]
+- ["Ps7CVarArg", "applicationDidBecomeActive"]
+- ["Ps7CVarArg", "applicationDidEnterBackground"]
+- ["Ps7CVarArg", "applicationDidFinishLaunching"]
+- ["Ps7CVarArg", "applicationDidReceiveMemoryWarning"]
+- ["Ps7CVarArg", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps7CVarArg", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps7CVarArg", "applicationShouldRequestHealthAuthorization"]
+- ["Ps7CVarArg", "applicationSignificantTimeChange"]
+- ["Ps7CVarArg", "applicationWillEnterForeground"]
+- ["Ps7CVarArg", "applicationWillResignActive"]
+- ["Ps7CVarArg", "applicationWillTerminate"]
+- !private ["Ps7CVarArg", "applyButtonAppearance"]
+- !private ["Ps7CVarArg", "borderColor"]
+- !private ["Ps7CVarArg", "borderWidth"]
+- !private ["Ps7CVarArg", "configure"]
+- !private ["Ps7CVarArg", "cornerRadius"]
+- !private ["Ps7CVarArg", "fatalError"]
+- !private ["Ps7CVarArg", "font"]
+- !private ["Ps7CVarArg", "gray"]
+- !private ["Ps7CVarArg", "handle"]
+- !private ["Ps7CVarArg", "hasChanges"]
+- !private ["Ps7CVarArg", "highlightedTextColor"]
+- !private ["Ps7CVarArg", "iconSize"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "lightGray"]
+- !private ["Ps7CVarArg", "loadPersistentStores"]
+- !private ["Ps7CVarArg", "persistentContainer"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "save"]
+- !private ["Ps7CVarArg", "saveContext"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "systemFont"]
+- !private ["Ps7CVarArg", "userInfo"]
+- !private ["Ps7CVarArg", "viewContext"]
+- ["Ps7CVarArg", "window"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "BTNDropinButton"]
+- !private ["Ps28CustomDebugStringConvertible", "Button"]
+- !private ["Ps28CustomDebugStringConvertible", "FIRApp"]
+- !private ["Ps28CustomDebugStringConvertible", "NSPersistentContainer"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIFont"]
+- !private ["Ps28CustomDebugStringConvertible", "allow"]
+- !private ["Ps28CustomDebugStringConvertible", "appearance"]
+- ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps28CustomDebugStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "applyButtonAppearance"]
+- !private ["Ps28CustomDebugStringConvertible", "borderColor"]
+- !private ["Ps28CustomDebugStringConvertible", "borderWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "configure"]
+- !private ["Ps28CustomDebugStringConvertible", "cornerRadius"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "font"]
+- !private ["Ps28CustomDebugStringConvertible", "gray"]
+- !private ["Ps28CustomDebugStringConvertible", "handle"]
+- !private ["Ps28CustomDebugStringConvertible", "hasChanges"]
+- !private ["Ps28CustomDebugStringConvertible", "highlightedTextColor"]
+- !private ["Ps28CustomDebugStringConvertible", "iconSize"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lightGray"]
+- !private ["Ps28CustomDebugStringConvertible", "loadPersistentStores"]
+- !private ["Ps28CustomDebugStringConvertible", "persistentContainer"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "save"]
+- !private ["Ps28CustomDebugStringConvertible", "saveContext"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "systemFont"]
+- !private ["Ps28CustomDebugStringConvertible", "userInfo"]
+- !private ["Ps28CustomDebugStringConvertible", "viewContext"]
+- ["Ps28CustomDebugStringConvertible", "window"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "BTNDropinButton"]
+- !private ["Ps23CustomStringConvertible", "Button"]
+- !private ["Ps23CustomStringConvertible", "FIRApp"]
+- !private ["Ps23CustomStringConvertible", "NSPersistentContainer"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIFont"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "allow"]
+- !private ["Ps23CustomStringConvertible", "appearance"]
+- ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["Ps23CustomStringConvertible", "applyButtonAppearance"]
+- !private ["Ps23CustomStringConvertible", "borderColor"]
+- !private ["Ps23CustomStringConvertible", "borderWidth"]
+- !private ["Ps23CustomStringConvertible", "configure"]
+- !private ["Ps23CustomStringConvertible", "cornerRadius"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "font"]
+- !private ["Ps23CustomStringConvertible", "gray"]
+- !private ["Ps23CustomStringConvertible", "handle"]
+- !private ["Ps23CustomStringConvertible", "hasChanges"]
+- !private ["Ps23CustomStringConvertible", "highlightedTextColor"]
+- !private ["Ps23CustomStringConvertible", "iconSize"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lightGray"]
+- !private ["Ps23CustomStringConvertible", "loadPersistentStores"]
+- !private ["Ps23CustomStringConvertible", "persistentContainer"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "save"]
+- !private ["Ps23CustomStringConvertible", "saveContext"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "systemFont"]
+- !private ["Ps23CustomStringConvertible", "userInfo"]
+- !private ["Ps23CustomStringConvertible", "viewContext"]
+- ["Ps23CustomStringConvertible", "window"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "BTNDropinButton"]
+- !private ["Ps9Equatable", "Button"]
+- !private ["Ps9Equatable", "FIRApp"]
+- !private ["Ps9Equatable", "NSPersistentContainer"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIFont"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "allow"]
+- !private ["Ps9Equatable", "appearance"]
+- ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidEnterBackground"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9Equatable", "applicationSignificantTimeChange"]
+- ["Ps9Equatable", "applicationWillEnterForeground"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "applicationWillTerminate"]
+- !private ["Ps9Equatable", "applyButtonAppearance"]
+- !private ["Ps9Equatable", "borderColor"]
+- !private ["Ps9Equatable", "borderWidth"]
+- !private ["Ps9Equatable", "configure"]
+- !private ["Ps9Equatable", "cornerRadius"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "font"]
+- !private ["Ps9Equatable", "gray"]
+- !private ["Ps9Equatable", "handle"]
+- !private ["Ps9Equatable", "hasChanges"]
+- !private ["Ps9Equatable", "highlightedTextColor"]
+- !private ["Ps9Equatable", "iconSize"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lightGray"]
+- !private ["Ps9Equatable", "loadPersistentStores"]
+- !private ["Ps9Equatable", "persistentContainer"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "save"]
+- !private ["Ps9Equatable", "saveContext"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "systemFont"]
+- !private ["Ps9Equatable", "userInfo"]
+- !private ["Ps9Equatable", "viewContext"]
+- ["Ps9Equatable", "window"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps5Error", "userInfo"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["CSo6FIRApp", "configure"]
+- !private ["Ps8Hashable", "BTNDropinButton"]
+- !private ["Ps8Hashable", "Button"]
+- !private ["Ps8Hashable", "FIRApp"]
+- !private ["Ps8Hashable", "NSPersistentContainer"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIFont"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "allow"]
+- !private ["Ps8Hashable", "appearance"]
+- ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidEnterBackground"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps8Hashable", "applicationSignificantTimeChange"]
+- ["Ps8Hashable", "applicationWillEnterForeground"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "applicationWillTerminate"]
+- !private ["Ps8Hashable", "applyButtonAppearance"]
+- !private ["Ps8Hashable", "borderColor"]
+- !private ["Ps8Hashable", "borderWidth"]
+- !private ["Ps8Hashable", "configure"]
+- !private ["Ps8Hashable", "cornerRadius"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "font"]
+- !private ["Ps8Hashable", "gray"]
+- !private ["Ps8Hashable", "handle"]
+- !private ["Ps8Hashable", "hasChanges"]
+- !private ["Ps8Hashable", "highlightedTextColor"]
+- !private ["Ps8Hashable", "iconSize"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lightGray"]
+- !private ["Ps8Hashable", "loadPersistentStores"]
+- !private ["Ps8Hashable", "persistentContainer"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "save"]
+- !private ["Ps8Hashable", "saveContext"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "systemFont"]
+- !private ["Ps8Hashable", "userInfo"]
+- !private ["Ps8Hashable", "viewContext"]
+- ["Ps8Hashable", "window"]
+- ["Ps8Hashable", ""]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "appearance"]
+- !private ["PSo8NSCoding", "borderColor"]
+- !private ["PSo8NSCoding", "borderWidth"]
+- !private ["PSo8NSCoding", "cornerRadius"]
+- !private ["PSo8NSCoding", "font"]
+- !private ["PSo8NSCoding", "gray"]
+- !private ["PSo8NSCoding", "hasChanges"]
+- !private ["PSo8NSCoding", "highlightedTextColor"]
+- !private ["PSo8NSCoding", "iconSize"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "lightGray"]
+- !private ["PSo8NSCoding", "save"]
+- !private ["PSo8NSCoding", "userInfo"]
+- !private ["PSo9NSCopying", "gray"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "lightGray"]
+- !private ["PSo9NSCopying", "systemFont"]
+- !private ["PSo9NSCopying", "userInfo"]
+- !private ["CSo7NSError", "userInfo"]
+- !private ["PSo9NSLocking", "hasChanges"]
+- !private ["PSo9NSLocking", "save"]
+- !private ["CSo22NSManagedObjectContext", "hasChanges"]
+- !private ["CSo22NSManagedObjectContext", "save"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "BTNDropinButton"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Button"]
+- !private ["CSo8NSObject", "Error"]
+- !private ["CSo8NSObject", "FIRApp"]
+- !private ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "NSPersistentContainer"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIFont"]
+- ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "allow"]
+- !private ["CSo8NSObject", "appearance"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- ["CSo8NSObject", "applyButtonAppearance"]
+- !private ["CSo8NSObject", "borderColor"]
+- !private ["CSo8NSObject", "borderWidth"]
+- !private ["CSo8NSObject", "configure"]
+- !private ["CSo8NSObject", "cornerRadius"]
+- !private ["CSo8NSObject", "fatalError"]
+- !private ["CSo8NSObject", "font"]
+- !private ["CSo8NSObject", "gray"]
+- !private ["CSo8NSObject", "handle"]
+- !private ["CSo8NSObject", "hasChanges"]
+- !private ["CSo8NSObject", "highlightedTextColor"]
+- !private ["CSo8NSObject", "iconSize"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "lightGray"]
+- !private ["CSo8NSObject", "loadPersistentStores"]
+- ["CSo8NSObject", "persistentContainer"]
+- ["CSo8NSObject", "persistentContainer.storage"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "save"]
+- ["CSo8NSObject", "saveContext"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "systemFont"]
+- !private ["CSo8NSObject", "userInfo"]
+- !private ["CSo8NSObject", "viewContext"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "BTNDropinButton"]
+- !private ["PSo16NSObjectProtocol", "Button"]
+- !private ["PSo16NSObjectProtocol", "FIRApp"]
+- !private ["PSo16NSObjectProtocol", "NSPersistentContainer"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- !private ["PSo16NSObjectProtocol", "allow"]
+- !private ["PSo16NSObjectProtocol", "appearance"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "applyButtonAppearance"]
+- !private ["PSo16NSObjectProtocol", "borderColor"]
+- !private ["PSo16NSObjectProtocol", "borderWidth"]
+- !private ["PSo16NSObjectProtocol", "configure"]
+- !private ["PSo16NSObjectProtocol", "cornerRadius"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- !private ["PSo16NSObjectProtocol", "font"]
+- !private ["PSo16NSObjectProtocol", "gray"]
+- !private ["PSo16NSObjectProtocol", "handle"]
+- !private ["PSo16NSObjectProtocol", "hasChanges"]
+- !private ["PSo16NSObjectProtocol", "highlightedTextColor"]
+- !private ["PSo16NSObjectProtocol", "iconSize"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lightGray"]
+- !private ["PSo16NSObjectProtocol", "loadPersistentStores"]
+- !private ["PSo16NSObjectProtocol", "persistentContainer"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "save"]
+- !private ["PSo16NSObjectProtocol", "saveContext"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "systemFont"]
+- !private ["PSo16NSObjectProtocol", "userInfo"]
+- !private ["PSo16NSObjectProtocol", "viewContext"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo21NSPersistentContainer", "init"]
+- !private ["CSo21NSPersistentContainer", "loadPersistentStores"]
+- !private ["CSo21NSPersistentContainer", "viewContext"]
+- !private ["PSo14NSSecureCoding", "gray"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "lightGray"]
+- !private ["PSo14NSSecureCoding", "userInfo"]
+- !private ["CSo8NSString", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "appearance"]
+- !private ["PSo29UIAccessibilityIdentification", "borderColor"]
+- !private ["PSo29UIAccessibilityIdentification", "borderWidth"]
+- !private ["PSo29UIAccessibilityIdentification", "cornerRadius"]
+- !private ["PSo29UIAccessibilityIdentification", "font"]
+- !private ["PSo29UIAccessibilityIdentification", "highlightedTextColor"]
+- !private ["PSo29UIAccessibilityIdentification", "iconSize"]
+- !private ["PSo12UIAppearance", "appearance"]
+- !private ["PSo12UIAppearance", "borderColor"]
+- !private ["PSo12UIAppearance", "borderWidth"]
+- !private ["PSo12UIAppearance", "cornerRadius"]
+- !private ["PSo12UIAppearance", "font"]
+- !private ["PSo12UIAppearance", "highlightedTextColor"]
+- !private ["PSo12UIAppearance", "iconSize"]
+- !private ["PSo21UIAppearanceContainer", "appearance"]
+- !private ["PSo21UIAppearanceContainer", "borderColor"]
+- !private ["PSo21UIAppearanceContainer", "borderWidth"]
+- !private ["PSo21UIAppearanceContainer", "cornerRadius"]
+- !private ["PSo21UIAppearanceContainer", "font"]
+- !private ["PSo21UIAppearanceContainer", "highlightedTextColor"]
+- !private ["PSo21UIAppearanceContainer", "iconSize"]
+- !private ["PSo21UIApplicationDelegate", "BTNDropinButton"]
+- !private ["PSo21UIApplicationDelegate", "Button"]
+- !private ["PSo21UIApplicationDelegate", "FIRApp"]
+- !private ["PSo21UIApplicationDelegate", "NSPersistentContainer"]
+- !private ["PSo21UIApplicationDelegate", "UIColor"]
+- !private ["PSo21UIApplicationDelegate", "UIFont"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- !private ["PSo21UIApplicationDelegate", "applyButtonAppearance"]
+- !private ["PSo21UIApplicationDelegate", "fatalError"]
+- !private ["PSo21UIApplicationDelegate", "persistentContainer"]
+- !private ["PSo21UIApplicationDelegate", "print"]
+- !private ["PSo21UIApplicationDelegate", "saveContext"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- !private ["CSo7UIColor", "gray"]
+- !private ["CSo7UIColor", "lightGray"]
+- !private ["CSo9UIControl", "appearance"]
+- !private ["CSo9UIControl", "borderColor"]
+- !private ["CSo9UIControl", "borderWidth"]
+- !private ["CSo9UIControl", "cornerRadius"]
+- !private ["CSo9UIControl", "font"]
+- !private ["CSo9UIControl", "highlightedTextColor"]
+- !private ["CSo9UIControl", "iconSize"]
+- !private ["PSo17UICoordinateSpace", "appearance"]
+- !private ["PSo17UICoordinateSpace", "borderColor"]
+- !private ["PSo17UICoordinateSpace", "borderWidth"]
+- !private ["PSo17UICoordinateSpace", "cornerRadius"]
+- !private ["PSo17UICoordinateSpace", "font"]
+- !private ["PSo17UICoordinateSpace", "highlightedTextColor"]
+- !private ["PSo17UICoordinateSpace", "iconSize"]
+- !private ["PSo13UIDynamicItem", "appearance"]
+- !private ["PSo13UIDynamicItem", "borderColor"]
+- !private ["PSo13UIDynamicItem", "borderWidth"]
+- !private ["PSo13UIDynamicItem", "cornerRadius"]
+- !private ["PSo13UIDynamicItem", "font"]
+- !private ["PSo13UIDynamicItem", "highlightedTextColor"]
+- !private ["PSo13UIDynamicItem", "iconSize"]
+- !private ["PSo18UIFocusEnvironment", "appearance"]
+- !private ["PSo18UIFocusEnvironment", "borderColor"]
+- !private ["PSo18UIFocusEnvironment", "borderWidth"]
+- !private ["PSo18UIFocusEnvironment", "cornerRadius"]
+- !private ["PSo18UIFocusEnvironment", "font"]
+- !private ["PSo18UIFocusEnvironment", "highlightedTextColor"]
+- !private ["PSo18UIFocusEnvironment", "iconSize"]
+- !private ["PSo11UIFocusItem", "appearance"]
+- !private ["PSo11UIFocusItem", "borderColor"]
+- !private ["PSo11UIFocusItem", "borderWidth"]
+- !private ["PSo11UIFocusItem", "cornerRadius"]
+- !private ["PSo11UIFocusItem", "font"]
+- !private ["PSo11UIFocusItem", "highlightedTextColor"]
+- !private ["PSo11UIFocusItem", "iconSize"]
+- !private ["CSo6UIFont", "systemFont"]
+- !private ["CSo11UIResponder", "BTNDropinButton"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "Button"]
+- !private ["CSo11UIResponder", "Error"]
+- !private ["CSo11UIResponder", "FIRApp"]
+- !private ["CSo11UIResponder", "NSError"]
+- ["CSo11UIResponder", "NSPersistentContainer"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIFont"]
+- ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "URL"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "appearance"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "applyButtonAppearance"]
+- !private ["CSo11UIResponder", "borderColor"]
+- !private ["CSo11UIResponder", "borderWidth"]
+- !private ["CSo11UIResponder", "cornerRadius"]
+- !private ["CSo11UIResponder", "fatalError"]
+- !private ["CSo11UIResponder", "font"]
+- !private ["CSo11UIResponder", "highlightedTextColor"]
+- !private ["CSo11UIResponder", "iconSize"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "persistentContainer"]
+- ["CSo11UIResponder", "persistentContainer.storage"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "saveContext"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "BTNDropinButton"]
+- !private ["PSo30UIResponderStandardEditActions", "Button"]
+- !private ["PSo30UIResponderStandardEditActions", "FIRApp"]
+- !private ["PSo30UIResponderStandardEditActions", "NSPersistentContainer"]
+- !private ["PSo30UIResponderStandardEditActions", "UIColor"]
+- !private ["PSo30UIResponderStandardEditActions", "UIFont"]
+- !private ["PSo30UIResponderStandardEditActions", "appearance"]
+- ["PSo30UIResponderStandardEditActions", "application"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidFinishLaunching"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationShouldRequestHealthAuthorization"]
+- ["PSo30UIResponderStandardEditActions", "applicationSignificantTimeChange"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillEnterForeground"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillResignActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillTerminate"]
+- !private ["PSo30UIResponderStandardEditActions", "applyButtonAppearance"]
+- !private ["PSo30UIResponderStandardEditActions", "borderColor"]
+- !private ["PSo30UIResponderStandardEditActions", "borderWidth"]
+- !private ["PSo30UIResponderStandardEditActions", "cornerRadius"]
+- !private ["PSo30UIResponderStandardEditActions", "fatalError"]
+- !private ["PSo30UIResponderStandardEditActions", "font"]
+- !private ["PSo30UIResponderStandardEditActions", "highlightedTextColor"]
+- !private ["PSo30UIResponderStandardEditActions", "iconSize"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "persistentContainer"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "saveContext"]
+- ["PSo30UIResponderStandardEditActions", "window"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "appearance"]
+- !private ["PSo18UITraitEnvironment", "borderColor"]
+- !private ["PSo18UITraitEnvironment", "borderWidth"]
+- !private ["PSo18UITraitEnvironment", "cornerRadius"]
+- !private ["PSo18UITraitEnvironment", "font"]
+- !private ["PSo18UITraitEnvironment", "highlightedTextColor"]
+- !private ["PSo18UITraitEnvironment", "iconSize"]
+- !private ["CSo6UIView", "appearance"]
+- !private ["CSo6UIView", "borderColor"]
+- !private ["CSo6UIView", "borderWidth"]
+- !private ["CSo6UIView", "cornerRadius"]
+- !private ["CSo6UIView", "font"]
+- !private ["CSo6UIView", "highlightedTextColor"]
+- !private ["CSo6UIView", "iconSize"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "appearance"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "borderColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "borderWidth"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "cornerRadius"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "font"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "highlightedTextColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "iconSize"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByColorLiteral", "gray"]
+- !private ["Ps26_ExpressibleByColorLiteral", "lightGray"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "BTNDropinButton"]
+- !private ["Ps9_Hashable", "Button"]
+- !private ["Ps9_Hashable", "FIRApp"]
+- !private ["Ps9_Hashable", "NSPersistentContainer"]
+- !private ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "UIFont"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "allow"]
+- !private ["Ps9_Hashable", "appearance"]
+- ["Ps9_Hashable", "application"]
+- ["Ps9_Hashable", "applicationDidBecomeActive"]
+- ["Ps9_Hashable", "applicationDidEnterBackground"]
+- ["Ps9_Hashable", "applicationDidFinishLaunching"]
+- ["Ps9_Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9_Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9_Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9_Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9_Hashable", "applicationSignificantTimeChange"]
+- ["Ps9_Hashable", "applicationWillEnterForeground"]
+- ["Ps9_Hashable", "applicationWillResignActive"]
+- ["Ps9_Hashable", "applicationWillTerminate"]
+- !private ["Ps9_Hashable", "applyButtonAppearance"]
+- !private ["Ps9_Hashable", "borderColor"]
+- !private ["Ps9_Hashable", "borderWidth"]
+- !private ["Ps9_Hashable", "configure"]
+- !private ["Ps9_Hashable", "cornerRadius"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "font"]
+- !private ["Ps9_Hashable", "gray"]
+- !private ["Ps9_Hashable", "handle"]
+- !private ["Ps9_Hashable", "hasChanges"]
+- !private ["Ps9_Hashable", "highlightedTextColor"]
+- !private ["Ps9_Hashable", "iconSize"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lightGray"]
+- !private ["Ps9_Hashable", "loadPersistentStores"]
+- !private ["Ps9_Hashable", "persistentContainer"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "save"]
+- !private ["Ps9_Hashable", "saveContext"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "systemFont"]
+- !private ["Ps9_Hashable", "userInfo"]
+- !private ["Ps9_Hashable", "viewContext"]
+- ["Ps9_Hashable", "window"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C12AngelHacksSV11AppDelegate"
+- !private "CSo15BTNDropinButton"
+- !private "PSo25BTNDropinButtonAppearance"
+- !private "PSo25BTNDropinButtonDeprecated"
+- !private "Sb"
+- !private "CSo6Button"
+- !private "PSo16ButtonDeprecated"
+- !private "PSo14ButtonProtocol"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "CSo6FIRApp"
+- "Ps8Hashable"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "PSo9NSLocking"
+- !private "CSo22NSManagedObjectContext"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo21NSPersistentContainer"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- "PSo21UIApplicationDelegate"
+- !private "CSo7UIColor"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo6UIFont"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/StoreKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNAppActionMeta.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/Button_Public.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNDropinButtonCell_Deprecated.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/Button_Deprecated.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNDropinButton_Deprecated.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNBackground.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNImage.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNSerializable.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNDropinButtonCell.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNDropinButtonAppearanceProtocol.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNSubscriptableProtocol.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNItem.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNLineItem.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNListItem.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNSession.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNLocation.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNAppAction.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/Button.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNInteractiveButton.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNDropinButton.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNGroup.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNHeader.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNFooter.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNDropinButtonConstants.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNModelObject.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNProduct.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNEvent.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNMusicArtist.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNText.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNContext.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNView.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNPreview.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNJourney.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNBaseEntity.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Modules/module.modulemap"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+interface-hash: "cc68d1490638fa37f656e9f665a7f3b6"

@@ -1,0 +1,862 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StoryTableViewCellDelegate"
+- "nameMeal"
+- "lat"
+- "lon"
+- "phone"
+- "StoryTableViewCell"
+provides-nominal:
+- "P12AngelHacksSV26StoryTableViewCellDelegate"
+- "C12AngelHacksSV18StoryTableViewCell"
+provides-member:
+- ["P12AngelHacksSV26StoryTableViewCellDelegate", ""]
+- ["C12AngelHacksSV18StoryTableViewCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "interestButtonDidTouch"
+- "latitude"
+- "longitude"
+- "mealDesc"
+- "mealName"
+- "mealPrice"
+- "nom"
+- "rate"
+- "rectView"
+- "setSelected"
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CGSize"
+- "Float"
+- "StoryTableViewCell"
+- "StoryTableViewCellDelegate"
+- "String"
+- "StringLiteralType"
+- !private "UIColor"
+- "UILabel"
+- "UITableViewCell"
+- "UIView"
+- "lat"
+- "lon"
+- "nameMeal"
+- "phone"
+depends-member:
+- !private ["Ps9AnyObject", "CGSize"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "black"]
+- !private ["Ps9AnyObject", "cgColor"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lat"]
+- !private ["Ps9AnyObject", "latitude"]
+- !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "lon"]
+- !private ["Ps9AnyObject", "longitude"]
+- !private ["Ps9AnyObject", "mealName"]
+- !private ["Ps9AnyObject", "nameMeal"]
+- !private ["Ps9AnyObject", "nom"]
+- !private ["Ps9AnyObject", "phone"]
+- !private ["Ps9AnyObject", "rectView"]
+- !private ["Ps9AnyObject", "setSelected"]
+- !private ["Ps9AnyObject", "shadowColor"]
+- !private ["Ps9AnyObject", "shadowOffset"]
+- !private ["Ps9AnyObject", "shadowOpacity"]
+- !private ["Ps9AnyObject", "shadowRadius"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "uppercased"]
+- ["Ps9AnyObject", ""]
+- !private ["CSo7CALayer", "shadowColor"]
+- !private ["CSo7CALayer", "shadowOffset"]
+- !private ["CSo7CALayer", "shadowOpacity"]
+- !private ["CSo7CALayer", "shadowRadius"]
+- !private ["PSo15CALayerDelegate", "CGSize"]
+- !private ["PSo15CALayerDelegate", "UIColor"]
+- !private ["PSo15CALayerDelegate", "awakeFromNib"]
+- !private ["PSo15CALayerDelegate", "delegate"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "lat"]
+- !private ["PSo15CALayerDelegate", "latitude"]
+- !private ["PSo15CALayerDelegate", "layer"]
+- !private ["PSo15CALayerDelegate", "lon"]
+- !private ["PSo15CALayerDelegate", "longitude"]
+- !private ["PSo15CALayerDelegate", "mealName"]
+- !private ["PSo15CALayerDelegate", "nameMeal"]
+- !private ["PSo15CALayerDelegate", "nom"]
+- !private ["PSo15CALayerDelegate", "phone"]
+- !private ["PSo15CALayerDelegate", "rectView"]
+- !private ["PSo15CALayerDelegate", "setSelected"]
+- !private ["PSo15CALayerDelegate", "text"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["PSo13CAMediaTiming", "shadowColor"]
+- !private ["PSo13CAMediaTiming", "shadowOffset"]
+- !private ["PSo13CAMediaTiming", "shadowOpacity"]
+- !private ["PSo13CAMediaTiming", "shadowRadius"]
+- !private ["VSC6CGSize", "zero"]
+- !private ["Ps7CVarArg", "CGSize"]
+- !private ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "awakeFromNib"]
+- !private ["Ps7CVarArg", "black"]
+- !private ["Ps7CVarArg", "cgColor"]
+- !private ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "lat"]
+- !private ["Ps7CVarArg", "latitude"]
+- !private ["Ps7CVarArg", "layer"]
+- !private ["Ps7CVarArg", "lon"]
+- !private ["Ps7CVarArg", "longitude"]
+- !private ["Ps7CVarArg", "mealName"]
+- !private ["Ps7CVarArg", "nameMeal"]
+- !private ["Ps7CVarArg", "nom"]
+- !private ["Ps7CVarArg", "phone"]
+- !private ["Ps7CVarArg", "rectView"]
+- !private ["Ps7CVarArg", "setSelected"]
+- !private ["Ps7CVarArg", "shadowColor"]
+- !private ["Ps7CVarArg", "shadowOffset"]
+- !private ["Ps7CVarArg", "shadowOpacity"]
+- !private ["Ps7CVarArg", "shadowRadius"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "uppercased"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "uppercased"]
+- !private ["Ps28CustomDebugStringConvertible", "CGSize"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "black"]
+- !private ["Ps28CustomDebugStringConvertible", "cgColor"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lat"]
+- !private ["Ps28CustomDebugStringConvertible", "latitude"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "lon"]
+- !private ["Ps28CustomDebugStringConvertible", "longitude"]
+- !private ["Ps28CustomDebugStringConvertible", "mealName"]
+- !private ["Ps28CustomDebugStringConvertible", "nameMeal"]
+- !private ["Ps28CustomDebugStringConvertible", "nom"]
+- !private ["Ps28CustomDebugStringConvertible", "phone"]
+- !private ["Ps28CustomDebugStringConvertible", "rectView"]
+- !private ["Ps28CustomDebugStringConvertible", "setSelected"]
+- !private ["Ps28CustomDebugStringConvertible", "shadowColor"]
+- !private ["Ps28CustomDebugStringConvertible", "shadowOffset"]
+- !private ["Ps28CustomDebugStringConvertible", "shadowOpacity"]
+- !private ["Ps28CustomDebugStringConvertible", "shadowRadius"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "uppercased"]
+- !private ["Ps28CustomDebugStringConvertible", "zero"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "uppercased"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "zero"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "uppercased"]
+- !private ["Ps17CustomReflectable", "zero"]
+- !private ["Ps23CustomStringConvertible", "CGSize"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "black"]
+- !private ["Ps23CustomStringConvertible", "cgColor"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lat"]
+- !private ["Ps23CustomStringConvertible", "latitude"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "lon"]
+- !private ["Ps23CustomStringConvertible", "longitude"]
+- !private ["Ps23CustomStringConvertible", "mealName"]
+- !private ["Ps23CustomStringConvertible", "nameMeal"]
+- !private ["Ps23CustomStringConvertible", "nom"]
+- !private ["Ps23CustomStringConvertible", "phone"]
+- !private ["Ps23CustomStringConvertible", "rectView"]
+- !private ["Ps23CustomStringConvertible", "setSelected"]
+- !private ["Ps23CustomStringConvertible", "shadowColor"]
+- !private ["Ps23CustomStringConvertible", "shadowOffset"]
+- !private ["Ps23CustomStringConvertible", "shadowOpacity"]
+- !private ["Ps23CustomStringConvertible", "shadowRadius"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "uppercased"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGSize"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "black"]
+- !private ["Ps9Equatable", "cgColor"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lat"]
+- !private ["Ps9Equatable", "latitude"]
+- !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "lon"]
+- !private ["Ps9Equatable", "longitude"]
+- !private ["Ps9Equatable", "mealName"]
+- !private ["Ps9Equatable", "nameMeal"]
+- !private ["Ps9Equatable", "nom"]
+- !private ["Ps9Equatable", "phone"]
+- !private ["Ps9Equatable", "rectView"]
+- !private ["Ps9Equatable", "setSelected"]
+- !private ["Ps9Equatable", "shadowColor"]
+- !private ["Ps9Equatable", "shadowOffset"]
+- !private ["Ps9Equatable", "shadowOpacity"]
+- !private ["Ps9Equatable", "shadowRadius"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "uppercased"]
+- !private ["Ps9Equatable", "zero"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "uppercased"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "uppercased"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "uppercased"]
+- !private ["Ps8Hashable", "CGSize"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "black"]
+- !private ["Ps8Hashable", "cgColor"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lat"]
+- !private ["Ps8Hashable", "latitude"]
+- !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "lon"]
+- !private ["Ps8Hashable", "longitude"]
+- !private ["Ps8Hashable", "mealName"]
+- !private ["Ps8Hashable", "nameMeal"]
+- !private ["Ps8Hashable", "nom"]
+- !private ["Ps8Hashable", "phone"]
+- !private ["Ps8Hashable", "rectView"]
+- !private ["Ps8Hashable", "setSelected"]
+- !private ["Ps8Hashable", "shadowColor"]
+- !private ["Ps8Hashable", "shadowOffset"]
+- !private ["Ps8Hashable", "shadowOpacity"]
+- !private ["Ps8Hashable", "shadowRadius"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "uppercased"]
+- ["Ps8Hashable", ""]
+- ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "uppercased"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "uppercased"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "uppercased"]
+- !private ["PSo8NSCoding", "CGSize"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "black"]
+- !private ["PSo8NSCoding", "cgColor"]
+- !private ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "lat"]
+- !private ["PSo8NSCoding", "latitude"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "lon"]
+- !private ["PSo8NSCoding", "longitude"]
+- !private ["PSo8NSCoding", "mealName"]
+- !private ["PSo8NSCoding", "nameMeal"]
+- !private ["PSo8NSCoding", "nom"]
+- !private ["PSo8NSCoding", "phone"]
+- !private ["PSo8NSCoding", "rectView"]
+- !private ["PSo8NSCoding", "setSelected"]
+- !private ["PSo8NSCoding", "shadowColor"]
+- !private ["PSo8NSCoding", "shadowOffset"]
+- !private ["PSo8NSCoding", "shadowOpacity"]
+- !private ["PSo8NSCoding", "shadowRadius"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "uppercased"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "black"]
+- !private ["PSo9NSCopying", "cgColor"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "uppercased"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "uppercased"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CGSize"]
+- ["CSo8NSObject", "Float"]
+- ["CSo8NSObject", "StoryTableViewCellDelegate"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "awakeFromNib"]
+- !private ["CSo8NSObject", "black"]
+- !private ["CSo8NSObject", "cgColor"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "interestButtonDidTouch"]
+- !private ["CSo8NSObject", "lat"]
+- ["CSo8NSObject", "latitude"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "lon"]
+- ["CSo8NSObject", "longitude"]
+- ["CSo8NSObject", "mealDesc"]
+- ["CSo8NSObject", "mealName"]
+- ["CSo8NSObject", "mealPrice"]
+- !private ["CSo8NSObject", "nameMeal"]
+- ["CSo8NSObject", "nom"]
+- !private ["CSo8NSObject", "phone"]
+- ["CSo8NSObject", "rate"]
+- ["CSo8NSObject", "rectView"]
+- ["CSo8NSObject", "setSelected"]
+- !private ["CSo8NSObject", "shadowColor"]
+- !private ["CSo8NSObject", "shadowOffset"]
+- !private ["CSo8NSObject", "shadowOpacity"]
+- !private ["CSo8NSObject", "shadowRadius"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "uppercased"]
+- !private ["PSo16NSObjectProtocol", "CGSize"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "black"]
+- !private ["PSo16NSObjectProtocol", "cgColor"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lat"]
+- !private ["PSo16NSObjectProtocol", "latitude"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "lon"]
+- !private ["PSo16NSObjectProtocol", "longitude"]
+- !private ["PSo16NSObjectProtocol", "mealName"]
+- !private ["PSo16NSObjectProtocol", "nameMeal"]
+- !private ["PSo16NSObjectProtocol", "nom"]
+- !private ["PSo16NSObjectProtocol", "phone"]
+- !private ["PSo16NSObjectProtocol", "rectView"]
+- !private ["PSo16NSObjectProtocol", "setSelected"]
+- !private ["PSo16NSObjectProtocol", "shadowColor"]
+- !private ["PSo16NSObjectProtocol", "shadowOffset"]
+- !private ["PSo16NSObjectProtocol", "shadowOpacity"]
+- !private ["PSo16NSObjectProtocol", "shadowRadius"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "uppercased"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "black"]
+- !private ["PSo14NSSecureCoding", "cgColor"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "uppercased"]
+- ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "uppercased"]
+- ["C12AngelHacksSV18StoryTableViewCell", "AnyObject"]
+- ["C12AngelHacksSV18StoryTableViewCell", "Bool"]
+- !private ["C12AngelHacksSV18StoryTableViewCell", "CGSize"]
+- ["C12AngelHacksSV18StoryTableViewCell", "Float"]
+- ["C12AngelHacksSV18StoryTableViewCell", "StoryTableViewCellDelegate"]
+- ["C12AngelHacksSV18StoryTableViewCell", "String"]
+- !private ["C12AngelHacksSV18StoryTableViewCell", "UIColor"]
+- ["C12AngelHacksSV18StoryTableViewCell", "UILabel"]
+- ["C12AngelHacksSV18StoryTableViewCell", "UIView"]
+- ["C12AngelHacksSV18StoryTableViewCell", "awakeFromNib"]
+- ["C12AngelHacksSV18StoryTableViewCell", "deinit"]
+- ["C12AngelHacksSV18StoryTableViewCell", "delegate"]
+- ["C12AngelHacksSV18StoryTableViewCell", "init"]
+- ["C12AngelHacksSV18StoryTableViewCell", "interestButtonDidTouch"]
+- !private ["C12AngelHacksSV18StoryTableViewCell", "lat"]
+- ["C12AngelHacksSV18StoryTableViewCell", "latitude"]
+- !private ["C12AngelHacksSV18StoryTableViewCell", "lon"]
+- ["C12AngelHacksSV18StoryTableViewCell", "longitude"]
+- ["C12AngelHacksSV18StoryTableViewCell", "mealDesc"]
+- ["C12AngelHacksSV18StoryTableViewCell", "mealName"]
+- ["C12AngelHacksSV18StoryTableViewCell", "mealPrice"]
+- !private ["C12AngelHacksSV18StoryTableViewCell", "nameMeal"]
+- ["C12AngelHacksSV18StoryTableViewCell", "nom"]
+- !private ["C12AngelHacksSV18StoryTableViewCell", "phone"]
+- ["C12AngelHacksSV18StoryTableViewCell", "rate"]
+- ["C12AngelHacksSV18StoryTableViewCell", "rectView"]
+- ["C12AngelHacksSV18StoryTableViewCell", "setSelected"]
+- ["P12AngelHacksSV26StoryTableViewCellDelegate", "AnyObject"]
+- ["P12AngelHacksSV26StoryTableViewCellDelegate", "StoryTableViewCell"]
+- ["P12AngelHacksSV26StoryTableViewCellDelegate", "storyTableViewCellDidTouchInterest"]
+- ["SS", "init"]
+- !private ["SS", "uppercased"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "uppercased"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "uppercased"]
+- !private ["PSo29UIAccessibilityIdentification", "CGSize"]
+- !private ["PSo29UIAccessibilityIdentification", "UIColor"]
+- !private ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "lat"]
+- !private ["PSo29UIAccessibilityIdentification", "latitude"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "lon"]
+- !private ["PSo29UIAccessibilityIdentification", "longitude"]
+- !private ["PSo29UIAccessibilityIdentification", "mealName"]
+- !private ["PSo29UIAccessibilityIdentification", "nameMeal"]
+- !private ["PSo29UIAccessibilityIdentification", "nom"]
+- !private ["PSo29UIAccessibilityIdentification", "phone"]
+- !private ["PSo29UIAccessibilityIdentification", "rectView"]
+- !private ["PSo29UIAccessibilityIdentification", "setSelected"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGSize"]
+- !private ["PSo12UIAppearance", "UIColor"]
+- !private ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "lat"]
+- !private ["PSo12UIAppearance", "latitude"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "lon"]
+- !private ["PSo12UIAppearance", "longitude"]
+- !private ["PSo12UIAppearance", "mealName"]
+- !private ["PSo12UIAppearance", "nameMeal"]
+- !private ["PSo12UIAppearance", "nom"]
+- !private ["PSo12UIAppearance", "phone"]
+- !private ["PSo12UIAppearance", "rectView"]
+- !private ["PSo12UIAppearance", "setSelected"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGSize"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "lat"]
+- !private ["PSo21UIAppearanceContainer", "latitude"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo21UIAppearanceContainer", "lon"]
+- !private ["PSo21UIAppearanceContainer", "longitude"]
+- !private ["PSo21UIAppearanceContainer", "mealName"]
+- !private ["PSo21UIAppearanceContainer", "nameMeal"]
+- !private ["PSo21UIAppearanceContainer", "nom"]
+- !private ["PSo21UIAppearanceContainer", "phone"]
+- !private ["PSo21UIAppearanceContainer", "rectView"]
+- !private ["PSo21UIAppearanceContainer", "setSelected"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "black"]
+- !private ["CSo7UIColor", "cgColor"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "CGSize"]
+- !private ["PSo17UICoordinateSpace", "UIColor"]
+- !private ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "lat"]
+- !private ["PSo17UICoordinateSpace", "latitude"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "lon"]
+- !private ["PSo17UICoordinateSpace", "longitude"]
+- !private ["PSo17UICoordinateSpace", "mealName"]
+- !private ["PSo17UICoordinateSpace", "nameMeal"]
+- !private ["PSo17UICoordinateSpace", "nom"]
+- !private ["PSo17UICoordinateSpace", "phone"]
+- !private ["PSo17UICoordinateSpace", "rectView"]
+- !private ["PSo17UICoordinateSpace", "setSelected"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGSize"]
+- !private ["PSo13UIDynamicItem", "UIColor"]
+- !private ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "lat"]
+- !private ["PSo13UIDynamicItem", "latitude"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "lon"]
+- !private ["PSo13UIDynamicItem", "longitude"]
+- !private ["PSo13UIDynamicItem", "mealName"]
+- !private ["PSo13UIDynamicItem", "nameMeal"]
+- !private ["PSo13UIDynamicItem", "nom"]
+- !private ["PSo13UIDynamicItem", "phone"]
+- !private ["PSo13UIDynamicItem", "rectView"]
+- !private ["PSo13UIDynamicItem", "setSelected"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGSize"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "lat"]
+- !private ["PSo18UIFocusEnvironment", "latitude"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo18UIFocusEnvironment", "lon"]
+- !private ["PSo18UIFocusEnvironment", "longitude"]
+- !private ["PSo18UIFocusEnvironment", "mealName"]
+- !private ["PSo18UIFocusEnvironment", "nameMeal"]
+- !private ["PSo18UIFocusEnvironment", "nom"]
+- !private ["PSo18UIFocusEnvironment", "phone"]
+- !private ["PSo18UIFocusEnvironment", "rectView"]
+- !private ["PSo18UIFocusEnvironment", "setSelected"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "CGSize"]
+- !private ["PSo11UIFocusItem", "UIColor"]
+- !private ["PSo11UIFocusItem", "awakeFromNib"]
+- !private ["PSo11UIFocusItem", "delegate"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "lat"]
+- !private ["PSo11UIFocusItem", "latitude"]
+- !private ["PSo11UIFocusItem", "layer"]
+- !private ["PSo11UIFocusItem", "lon"]
+- !private ["PSo11UIFocusItem", "longitude"]
+- !private ["PSo11UIFocusItem", "mealName"]
+- !private ["PSo11UIFocusItem", "nameMeal"]
+- !private ["PSo11UIFocusItem", "nom"]
+- !private ["PSo11UIFocusItem", "phone"]
+- !private ["PSo11UIFocusItem", "rectView"]
+- !private ["PSo11UIFocusItem", "setSelected"]
+- !private ["PSo11UIFocusItem", "text"]
+- ["PSo11UIFocusItem", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "CGSize"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIColor"]
+- !private ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- !private ["PSo27UIGestureRecognizerDelegate", "delegate"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- !private ["PSo27UIGestureRecognizerDelegate", "lat"]
+- !private ["PSo27UIGestureRecognizerDelegate", "latitude"]
+- !private ["PSo27UIGestureRecognizerDelegate", "lon"]
+- !private ["PSo27UIGestureRecognizerDelegate", "longitude"]
+- !private ["PSo27UIGestureRecognizerDelegate", "mealName"]
+- !private ["PSo27UIGestureRecognizerDelegate", "nameMeal"]
+- !private ["PSo27UIGestureRecognizerDelegate", "nom"]
+- !private ["PSo27UIGestureRecognizerDelegate", "phone"]
+- !private ["PSo27UIGestureRecognizerDelegate", "rectView"]
+- !private ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "CGSize"]
+- ["CSo11UIResponder", "Float"]
+- ["CSo11UIResponder", "StoryTableViewCellDelegate"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "interestButtonDidTouch"]
+- !private ["CSo11UIResponder", "lat"]
+- ["CSo11UIResponder", "latitude"]
+- !private ["CSo11UIResponder", "layer"]
+- !private ["CSo11UIResponder", "lon"]
+- ["CSo11UIResponder", "longitude"]
+- ["CSo11UIResponder", "mealDesc"]
+- ["CSo11UIResponder", "mealName"]
+- ["CSo11UIResponder", "mealPrice"]
+- !private ["CSo11UIResponder", "nameMeal"]
+- ["CSo11UIResponder", "nom"]
+- !private ["CSo11UIResponder", "phone"]
+- ["CSo11UIResponder", "rate"]
+- ["CSo11UIResponder", "rectView"]
+- ["CSo11UIResponder", "setSelected"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "CGSize"]
+- !private ["PSo30UIResponderStandardEditActions", "UIColor"]
+- !private ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "lat"]
+- !private ["PSo30UIResponderStandardEditActions", "latitude"]
+- !private ["PSo30UIResponderStandardEditActions", "layer"]
+- !private ["PSo30UIResponderStandardEditActions", "lon"]
+- !private ["PSo30UIResponderStandardEditActions", "longitude"]
+- !private ["PSo30UIResponderStandardEditActions", "mealName"]
+- !private ["PSo30UIResponderStandardEditActions", "nameMeal"]
+- !private ["PSo30UIResponderStandardEditActions", "nom"]
+- !private ["PSo30UIResponderStandardEditActions", "phone"]
+- !private ["PSo30UIResponderStandardEditActions", "rectView"]
+- !private ["PSo30UIResponderStandardEditActions", "setSelected"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "AnyObject"]
+- ["CSo15UITableViewCell", "Bool"]
+- !private ["CSo15UITableViewCell", "CGSize"]
+- ["CSo15UITableViewCell", "Float"]
+- ["CSo15UITableViewCell", "StoryTableViewCellDelegate"]
+- ["CSo15UITableViewCell", "String"]
+- !private ["CSo15UITableViewCell", "UIColor"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UIView"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "delegate"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "interestButtonDidTouch"]
+- !private ["CSo15UITableViewCell", "lat"]
+- ["CSo15UITableViewCell", "latitude"]
+- !private ["CSo15UITableViewCell", "lon"]
+- ["CSo15UITableViewCell", "longitude"]
+- ["CSo15UITableViewCell", "mealDesc"]
+- ["CSo15UITableViewCell", "mealName"]
+- ["CSo15UITableViewCell", "mealPrice"]
+- !private ["CSo15UITableViewCell", "nameMeal"]
+- ["CSo15UITableViewCell", "nom"]
+- !private ["CSo15UITableViewCell", "phone"]
+- ["CSo15UITableViewCell", "rate"]
+- ["CSo15UITableViewCell", "rectView"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", ""]
+- !private ["PSo18UITraitEnvironment", "CGSize"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "lat"]
+- !private ["PSo18UITraitEnvironment", "latitude"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "lon"]
+- !private ["PSo18UITraitEnvironment", "longitude"]
+- !private ["PSo18UITraitEnvironment", "mealName"]
+- !private ["PSo18UITraitEnvironment", "nameMeal"]
+- !private ["PSo18UITraitEnvironment", "nom"]
+- !private ["PSo18UITraitEnvironment", "phone"]
+- !private ["PSo18UITraitEnvironment", "rectView"]
+- !private ["PSo18UITraitEnvironment", "setSelected"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "AnyObject"]
+- ["CSo6UIView", "Bool"]
+- !private ["CSo6UIView", "CGSize"]
+- ["CSo6UIView", "Float"]
+- ["CSo6UIView", "StoryTableViewCellDelegate"]
+- ["CSo6UIView", "String"]
+- !private ["CSo6UIView", "UIColor"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UIView"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "delegate"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "interestButtonDidTouch"]
+- !private ["CSo6UIView", "lat"]
+- ["CSo6UIView", "latitude"]
+- !private ["CSo6UIView", "layer"]
+- !private ["CSo6UIView", "lon"]
+- ["CSo6UIView", "longitude"]
+- ["CSo6UIView", "mealDesc"]
+- ["CSo6UIView", "mealName"]
+- ["CSo6UIView", "mealPrice"]
+- !private ["CSo6UIView", "nameMeal"]
+- ["CSo6UIView", "nom"]
+- !private ["CSo6UIView", "phone"]
+- ["CSo6UIView", "rate"]
+- ["CSo6UIView", "rectView"]
+- ["CSo6UIView", "setSelected"]
+- !private ["CSo6UIView", "text"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGSize"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "delegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "lat"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "latitude"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "lon"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "longitude"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "mealName"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "nameMeal"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "nom"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "phone"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rectView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setSelected"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "uppercased"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "uppercased"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "uppercased"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "uppercased"]
+- !private ["Ps26_ExpressibleByColorLiteral", "black"]
+- !private ["Ps26_ExpressibleByColorLiteral", "cgColor"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "uppercased"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "uppercased"]
+- !private ["Ps9_Hashable", "CGSize"]
+- !private ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "awakeFromNib"]
+- !private ["Ps9_Hashable", "black"]
+- !private ["Ps9_Hashable", "cgColor"]
+- !private ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lat"]
+- !private ["Ps9_Hashable", "latitude"]
+- !private ["Ps9_Hashable", "layer"]
+- !private ["Ps9_Hashable", "lon"]
+- !private ["Ps9_Hashable", "longitude"]
+- !private ["Ps9_Hashable", "mealName"]
+- !private ["Ps9_Hashable", "nameMeal"]
+- !private ["Ps9_Hashable", "nom"]
+- !private ["Ps9_Hashable", "phone"]
+- !private ["Ps9_Hashable", "rectView"]
+- !private ["Ps9_Hashable", "setSelected"]
+- !private ["Ps9_Hashable", "shadowColor"]
+- !private ["Ps9_Hashable", "shadowOffset"]
+- !private ["Ps9_Hashable", "shadowOpacity"]
+- !private ["Ps9_Hashable", "shadowRadius"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "uppercased"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "uppercased"]
+- !private ["Ps21_ObjectiveCBridgeable", "zero"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "CSo7CALayer"
+- "PSo15CALayerDelegate"
+- !private "PSo13CAMediaTiming"
+- !private "VSC6CGSize"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "P10SwiftyJSON17JSONSubscriptType"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "C12AngelHacksSV18StoryTableViewCell"
+- "P12AngelHacksSV26StoryTableViewCellDelegate"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/StoreKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNAppActionMeta.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/Button_Public.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNDropinButtonCell_Deprecated.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/Button_Deprecated.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNDropinButton_Deprecated.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNBackground.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNImage.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNSerializable.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNDropinButtonCell.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNDropinButtonAppearanceProtocol.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNSubscriptableProtocol.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNItem.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNLineItem.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNListItem.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNSession.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNLocation.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNAppAction.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/Button.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNInteractiveButton.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNDropinButton.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNGroup.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNHeader.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNFooter.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNDropinButtonConstants.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNModelObject.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNProduct.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNEvent.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNMusicArtist.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNText.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNContext.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNView.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNPreview.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNJourney.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Headers/BTNBaseEntity.h"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Button/Button.framework/Modules/module.modulemap"
+- "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+interface-hash: "cb5e1bb5f560a7c3c806f71c2af1a066"

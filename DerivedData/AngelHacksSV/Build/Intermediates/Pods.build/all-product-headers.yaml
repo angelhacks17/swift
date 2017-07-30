@@ -1,0 +1,97 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GTMDefines.h",
+          'external-contents': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/GoogleToolboxForMac/GTMDefines.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMNSData+zlib.h",
+          'external-contents': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/GoogleToolboxForMac/Foundation/GTMNSData+zlib.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleToolboxForMac-Swift.h",
+          'external-contents': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers/GoogleToolboxForMac-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleToolboxForMac-umbrella.h",
+          'external-contents': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Intermediates/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/Pods_AngelHacksSV.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-AngelHacksSV-umbrella.h",
+          'external-contents': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Target Support Files/Pods-AngelHacksSV/Pods-AngelHacksSV-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_AngelHacksSV-Swift.h",
+          'external-contents': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/Pods_AngelHacksSV.framework/Headers/Pods_AngelHacksSV-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/Pods_AngelHacksSV.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AngelHacksSV.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/gautam/Desktop/Tech/Computer Programming/Swift/AngelHacksSV/DerivedData/AngelHacksSV/Build/Intermediates/Pods.build/Debug-iphoneos/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
